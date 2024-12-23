@@ -1,0 +1,5 @@
+button:hover{
+    box-shadow: 10px  10px 5px grey;
+    scale: 1.5;
+    transition: 5s;
+}

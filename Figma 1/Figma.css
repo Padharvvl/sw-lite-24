@@ -1,0 +1,81 @@
+.backgroundcolor{
+    background-color: #69D1D1;
+    width: 100%;
+}
+.head{
+    background-color: #69D1D1;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.right{
+    display: flex;
+    word-spacing: 35px;
+    margin-top: 20px;
+}
+.text{
+    margin-right: 50px;
+  
+}
+.body{
+    background-color: #69D1D1;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.taniltsuulga{
+    width: 50%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+}
+.taniltsuulga1{
+    width: 50%;
+    height: auto;
+}
+img{
+    width: 300px;
+    height: 500px;
+    margin-left: 250px;
+    margin-top: 35px;
+    border-radius: 12px;
+    border: 5px solid black;
+}
+.checkbox{
+    margin-top: 120px;
+    display: flex;
+    gap: 100px;
+}
+.engiin{
+    display: flex;
+    margin-left: 50px;
+    gap: 20px;
+}
+.button1{
+   background-color: #46848B;
+   color: white;
+   border-radius: 5px;
+   width: 150px;
+  margin-top: 20px;
+  border: none;
+}
+.button2{
+    background-color:#00707F;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+   margin-top: 20px;
+ }
+.Frond{
+    font-weight: bold;
+}
+.ner{
+    font-family: "Irish Grover", system-ui;
+}

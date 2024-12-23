@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    background-color: aqua;
+    padding: 10px;
+
+}
+.container *{
+    background-color: azure;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.container .con1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
